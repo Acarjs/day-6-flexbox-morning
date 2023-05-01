@@ -5,14 +5,13 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-weight: bold;
 }
 
 header {
   background-color: #313638;
-  height: 20vh;
-  width: 100%;
+  min-height: 20vh;
   color: #f2f2f2;
   font-size: 3rem;
   padding: 2rem;
@@ -22,12 +21,10 @@ main {
   background-color: #f06543;
   display: flex;
   height: 60vh;
-  width: 100%;
   color: #313638;
 }
 
 nav {
-  width: 20vw;
   font-size: 3rem;
   color: #f2f2f2;
   padding: 2rem;
@@ -35,8 +32,8 @@ nav {
 
 article {
   background-color: #f2f2f2;
-  width: 80vw;
-  padding: 2rem;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 main article h1 {
@@ -49,7 +46,7 @@ footer {
   background-color: #b3b3b3;
   color: #f2f2f2;
   font-size: 3rem;
-  height: 20vh;
+  min-height: 20vh;
   width: 100%;
   padding: 2rem;
 }
